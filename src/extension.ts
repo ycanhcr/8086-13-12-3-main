@@ -17,7 +17,7 @@ export function activate(context: vscode.ExtensionContext) {
 
       if (platform === 'darwin') {
         terminal.sendText(`${extensionPath}/bin/emulator_8086_macos "${filePath}" -i`);
-    } else if (platform === 'linux') {
+    }
       else if (platform === 'linux') {
         terminal.sendText(`chmod u+x ${extensionPath}/bin/emulator_8086_linux`);
         terminal.sendText(`${extensionPath}/bin/emulator_8086_linux "${filePath}" -i`);

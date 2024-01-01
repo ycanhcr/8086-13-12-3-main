@@ -17,7 +17,7 @@
     "commands": [
       {
         "command": "extension.run8086Emulator",
-        "title": "8086"
+        "title": "piknik"
       }
     ]
   },
